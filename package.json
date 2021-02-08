@@ -1,0 +1,18 @@
+{
+  "name": "s1bot",
+  "version": "0.1.0",
+  "description": "S1Bot dans la place !",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "bot",
+    "agenda"
+  ],
+  "author": "Paulux",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}

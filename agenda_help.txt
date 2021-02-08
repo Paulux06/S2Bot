@@ -1,0 +1,22 @@
+`/!\ les arguments doivent être séparés par "|" /!\`
+__Commandes:__
+    **- help:**
+        *Affiche cette aide*
+        
+    **- add [date] | [matière] | [description]:**
+        *Ajoute un nouveau devoir à la liste des devoirs*
+        **[date]**: date au format JJ/MM *(Ex: 06/11)*
+        **[matière]**: nom de la matière
+        **[description]**: description rapide du devoir à faire
+	__Exemple:__ `!agenda add 03/11 | Anglais | Apprendre le vocabulaire`
+        
+    **- remove [index]:**
+        *Enlève un devoir de la liste des devoirs*
+        **[index]**: index du devoir à enlever
+	__Exemple:__ `!agenda remove 2` (enlève le troisième élément)
+        
+    **- show:**
+        *Actualise la liste des devoirs*
+        
+    **- clear:**
+        *Retire tous les devoirs de la liste des devoirs*

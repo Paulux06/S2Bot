@@ -1,0 +1,16 @@
+__Commandes:__
+    **- help:**
+        *Affiche cette aide*
+        
+    **- add [role]:**
+        *T'ajoute un nouveau role*
+        **[role]**: Nom du role a ajouter *(Ex: G4M3R)*
+	__Exemple:__ `!role add terraria`
+        
+    **- remove [role]:**
+        *T'Enlève un role*
+        **[role]**: Nom du role à enlever *(Ex: Among Us)*
+	__Exemple:__ `!role remove starcraft`
+        
+    **- list:**
+        *Liste tout les roles que tu peux avoir*
