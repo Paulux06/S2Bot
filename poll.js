@@ -12,7 +12,7 @@ function process(bot, message, param, args) {
     let admin = "773887474497880074";
     let goat = "801086479983575042";
     let test = "808400559907274822";
-    if (message.member.roles.cache.has(test)) {
+    if (message.member.roles.cache.has(test)||message.member.roles.cache.has(goat)||message.member.roles.cache.has(admin)) {
         switch (param) {
             case "create":
                 embedPoll = new discord.MessageEmbed()
